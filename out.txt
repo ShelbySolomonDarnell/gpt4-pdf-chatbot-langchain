@@ -1,0 +1,10 @@
+
+> gpt4-langchain-pdf-chatbot@0.1.0 ingest
+> tsx -r dotenv/config scripts/ingest-data.ts
+
+error [Error: ENOENT: no such file or directory, open '/code/gpt4-langchain/docs/gnpdfs/2011 - Genome-Wide Association for Fear Conditioning in an Advanced Intercross Mouse Line.pdf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/code/gpt4-langchain/docs/gnpdfs/2011 - Genome-Wide Association for Fear Conditioning in an Advanced Intercross Mouse Line.pdf'
+}

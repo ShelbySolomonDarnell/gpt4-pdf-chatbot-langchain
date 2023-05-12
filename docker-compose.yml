@@ -1,0 +1,15 @@
+services:
+  cdbx:
+    container_name: cdbx
+    image: dbx-gpt4-langchain:0.2
+    tty: true
+    volumes:
+      - ./:/code/gpt4-langchain
+    environment:
+      OPENAI_API_KEY: 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
+      PINECONE_API_KEY: bdf07f8a-3813-4305-a904-ce152492b1b7
+      PINECONE_ENVIRONMENT: asia-southeast1-gcp
+      PINECONE_INDEX_NAME: gpt4-ssd-test
+    ports:
+      - 3000:3000
+
